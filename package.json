@@ -5,7 +5,7 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "run": "probot run index.js",
+    "start": "probot ./index.js"
   },
   "dependencies": {
     "probot": "probot/probot"
