@@ -8,7 +8,7 @@
     "start": "probot run ./index.js"
   },
   "dependencies": {
-    "probot": "probot/probot"
+    "probot": "~0.2.0"
   },
   "engines": {
     "node": ">= 7.7.0",
