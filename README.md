@@ -9,7 +9,7 @@
 npm install
 
 # Run the bot
-npm run
+npm start
 ```
 
 For more information, see the [documentation for probot](https://github.com/probot/probot).
