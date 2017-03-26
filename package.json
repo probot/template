@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "{{ description }}",
   "author": "{{ author }}",
-  "private": true,
+  "license": "ISC",
+  "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
   "scripts": {
     "start": "probot run ./index.js"
   },
