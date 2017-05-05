@@ -1,8 +1,8 @@
 {
   "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "{{{ description }}}",
+  "author": "{{{ author }}}",
   "license": "ISC",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
   "scripts": {
