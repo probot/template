@@ -1,6 +1,6 @@
 # {{ name }}
 
-> a GitHub Integration built with [probot](https://github.com/probot/probot) that {{ description }}
+> a GitHub App built with [probot](https://github.com/probot/probot) that {{ description }}
 
 ## Setup
 
