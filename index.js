@@ -3,8 +3,8 @@ module.exports = (robot) => {
   console.log('Yay, the plugin was loaded!');
   
   // For more information on building plugins:
-  // https://github.com/probot/probot/blob/master/docs/plugins.md
+  // https://probot.github.io/docs/
   
   // To get your plugin running against GitHub, see:
-  // https://github.com/probot/probot/blob/master/docs/development.md
+  // https://probot.github.io/docs/development/
 };
