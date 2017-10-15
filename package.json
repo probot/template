@@ -10,7 +10,7 @@
     "test": "mocha && standard"
   },
   "dependencies": {
-    "probot": "^0.7.2"
+    "probot": "^2.0.0"
   },
   "devDependencies": {
     "expect": "^1.20.2",
