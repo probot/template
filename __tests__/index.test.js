@@ -1,14 +1,14 @@
-const bot = require('..');
+const bot = require('..')
 
-const { createRobot } = require('probot');
+const { createRobot } = require('probot')
 
 describe('your-bot', () => {
-  let robot;
-  let github;
+  let robot
+  let github
 
   beforeEach(() => {
-    robot = createRobot();
-    bot(robot);
+    robot = createRobot()
+    bot(robot)
 
     github = {
       issues: {
@@ -18,10 +18,10 @@ describe('your-bot', () => {
         createStatus: jest.fn(() => Promise.resolve()),
         getContent: jest.fn(() => Promise.resolve({data: {content: Buffer.from('tv: law and order').toString('base64')}}))
       }
-    };
+    }
 
-    robot.auth = () => Promise.resolve(github);
-  });
+    robot.auth = () => Promise.resolve(github)
+  })
 
   it('creates a new issue upon installation', async () => {
     // Simulates delivery of a payload
@@ -38,10 +38,9 @@ describe('your-bot', () => {
           id: 64798
         }
       }
-    });
+    })
     // This test would pass if in your main code you called `context.github.issues.createComment`
-    expect(github.issues.create).toHaveBeenCalled();
-
+    expect(github.issues.create).toHaveBeenCalled()
   })
 })
 
