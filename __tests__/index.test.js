@@ -1,4 +1,4 @@
-const bot = require('..')
+const app = require('..')
 
 const { createRobot } = require('probot')
 
@@ -8,7 +8,7 @@ describe('your-bot', () => {
 
   beforeEach(() => {
     robot = createRobot()
-    bot(robot)
+    app(robot)
 
     github = {
       issues: {
