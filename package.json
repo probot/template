@@ -18,8 +18,7 @@
     "standard": "^10.0.3"
   },
   "engines": {
-    "node": ">= 7.7.0",
-    "npm": ">= 4.0.0"
+    "node": ">= 8.3.0"
   },
   "standard": {
     "env": [
