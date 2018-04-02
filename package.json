@@ -6,6 +6,7 @@
   "license": "ISC",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
   "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
     "test": "jest && standard"
   },
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "jest": "^21.2.1",
+    "nodemon": "^1.17.2",
     "smee-client": "^1.0.1",
     "standard": "^10.0.3"
   },
