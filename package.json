@@ -11,6 +11,7 @@
     "test": "jest && standard"
   },
   "dependencies": {
+    "node": "^8.10.0",
     "probot": "^6.0.0"
   },
   "devDependencies": {
