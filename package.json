@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
+    "lint": "standard --fix",
     "test": "jest && standard"
   },
   "dependencies": {
