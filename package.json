@@ -5,6 +5,14 @@
   "author": "{{{ author }}}",
   "license": "ISC",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
+  "homepage": "https://probot.github.io/apps/{{ name }}/",
+  "bugs": "https://github.com/probot/{{ name }}/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-plugin",
+    "probot-app"
+  ],
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
