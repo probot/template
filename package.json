@@ -5,12 +5,11 @@
   "author": "{{{ author }}}",
   "license": "ISC",
   "repository": "https://github.com/{{ owner }}/{{ repo }}.git",
-  "homepage": "https://probot.github.io/apps/{{ name }}/",
-  "bugs": "https://github.com/probot/{{ name }}/issues",
+  "homepage": "https://github.com/{{ owner }}/{{ repo }}",
+  "bugs": "https://github.com/{{ owner }}/{{ repo }}/issues",
   "keywords": [
     "probot",
     "github",
-    "probot-plugin",
     "probot-app"
   ],
   "scripts": {
