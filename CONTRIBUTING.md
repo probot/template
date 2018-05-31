@@ -34,7 +34,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
 
-<!-- Add any bots you enable in this section. Here is an example:
+<!-- Add any apps you enable in this section. Here is an example:
 
 ## Apps
 
