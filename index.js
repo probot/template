@@ -1,6 +1,6 @@
-module.exports = (robot) => {
+module.exports = app => {
   // Your code here
-  robot.log('Yay, the app was loaded!')
+  app.log('Yay, the app was loaded!')
 
   // For more information on building apps:
   // https://probot.github.io/docs/
