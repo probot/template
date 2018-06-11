@@ -34,19 +34,6 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
 
-<!-- Add any apps you enable in this section. Here is an example:
-
-## Apps
-
-Not surprisingly, we have some GitHub Apps using Probot enabled on this repo:
-
-// Replace this section below
-- [Stale](https://probot.github.io/apps/stale/): We use Stale (the app created in this repo) to ensure that conversations here remain relevant. This is for us, the maintainers, so that we don't feel like we've got hundreds of issues to deal with; if you still have an issue, please let us know! We don't want to close issues that are painful for you. Stale just helps us have a bit more breathing space by making sure issues don't pile up forever.
-
-If you're concerned about our apps or feel that they are insensitive in some way, please let us know.
-
--->
-
 ## Resources
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
