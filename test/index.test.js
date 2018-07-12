@@ -11,8 +11,7 @@ test('that we can run tests', () => {
 })
 
 describe('my probot app', () => {
-  let app
-  let github
+  let app, github
 
   beforeEach(() => {
     app = new Application()
