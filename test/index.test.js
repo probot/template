@@ -1,6 +1,6 @@
 const { Application } = require('probot')
 // Requiring our app implementation
-const {{ name }} = require('..')
+const myProbotApp = require('..')
 
 const issuesOpenedPayload = require('./fixtures/issues.opened.json')
 
@@ -10,13 +10,13 @@ test('that we can run tests', () => {
   expect(1 + 2 + 3).toBe(6)
 })
 
-describe('{{ name }}', () => {
+describe('My Probot app', () => {
   let app, github
 
   beforeEach(() => {
     app = new Application()
     // Initialize the app based on the code from index.js
-    app.load({{ name }})
+    app.load(myProbotApp)
     // This is an easy way to mock out the GitHub API
     github = {
       issues: {
