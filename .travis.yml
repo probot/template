@@ -7,7 +7,7 @@ notifications:
   disabled: true
 
 install:
-  - npx create-probot-app -n "travis-template-test" -d "A Probot App for building on Travis" -a "Pro Bawt" -e "probot@example.com" -h "https://probot.github.io" -u "probot" -r "template" -b ${TRAVIS_PULL_REQUEST_BRANCH} travis-template-test
+  - npx create-probot-app -n "travis-template-test" -d "A Probot App for building on Travis" -a "Pro Bawt" -e "probot@example.com" -h "https://probot.github.io" -u "probot" -r "template" -b ${TRAVIS_PULL_REQUEST_BRANCH:-TRAVIS_BRANCH} travis-template-test
     
 script:
   - cd travis-template-test && npm test
