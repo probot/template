@@ -3,12 +3,6 @@ language: node_js
 node_js:
   - "8.3"
 
-matrix:
-  include:
-    - node_js: "10"
-  allow_failures:
-    - node_js: "10"
-
 notifications:
   disabled: true
 
