@@ -2,5 +2,26 @@ sudo: false
 language: node_js
 node_js:
   - "8.3"
+
+matrix:
+  include:
+    - node_js: "10"
+  allow_failures:
+    - node_js: "10"
+
 notifications:
   disabled: true
+
+install:
+  - npx create-probot-app \
+    -n travis-template-test \
+    -d "A Probot App for building on Travis" \
+    -a "Pro Bawt" \
+    -e "probot@example.com" \
+    -h "https://probot.github.io" \
+    -u "probot" \
+    -r "template"
+    
+script:
+  - cd travis-template-test && npm test
+    
