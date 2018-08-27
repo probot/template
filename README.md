@@ -1,6 +1,6 @@
 # {{ name }}
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that {{ description }}
+> A GitHub App built with [Probot](https://probot.github.io) that {{ description }}
 
 ## Setup
 
