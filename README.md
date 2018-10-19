@@ -20,4 +20,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © {{{ year }}} {{{ author }}}
+[ISC](LICENSE) © {{ year }} {{ author }}
